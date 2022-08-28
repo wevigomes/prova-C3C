@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova js C3C</title>
+</head>
+<body> 
+    <h1>Prova de Javascript C3C Software</h1>
+    <main>
+        <h2>Qual o tipo de triângulo?</h2>
+        <p> O usuário deve entrar com as medidas dos três lados: </p>
+        <label >Lado 1:</label>
+        <input type="number" name="lado1" id="entrada1">
+        <label >Lado 2:</label>
+        <input type="number" name="lado2" id="entrada2"> 
+        <label >Lado 3:</label>
+        <input type="number" name="lado3" id="entrada3">
+        <br><br>  
+        <label  > Resposta:</label>
+        <input type="text" name="resp" id="resp" disabled> 
+        <br>
+        <button id="calcular">Calcular</button>
+        <br><br><br>
+
+        <section>
+            <h2>Calcular fórmula de Bhaskara</h2>
+                <p> Entre com os valores de A, B e C:</p>
+                <form action="">
+                    <label>Valor de A:</label>
+                    <input type="number" id="valordeA">
+                    <label>Valor de B:</label>
+                    <input type="number" id="valordeB">
+                    <label>Valor de C:</label>
+                    <input type="number" id="valordeC">
+                    <br>
+                    <button id="calculo">Calcular</button>
+                    <button id="limpar">Limpar</button>
+                    <div id= "resultBhask">Resposta: </div>
+                </form>
+        </section>
+        <section>
+            <h2> Sistema de Notas</h2>
+            <p>Por favor, entre com a nota da avaliação:</p>
+            <label>Nota do aluno:</label>
+            <input type="number" id="notaAluno">
+            <button type="submit" onclick="calcularNota()">Enviar</button>
+            <div id="aprovacao">Resultado: </div>
+
+        </section>
+        <section>
+            <h2>Quem é Luidy Moura?</h2>
+            <p>Digite um valor para iniciar o contador:</p>
+            <form action="">
+                <input type="number" id="count">
+                <button id="contar">Contar</button>
+                <div id="lista"> </div>
+                
+            </form>
+            
+        </section>
+        
+    </main>
+    
+    <script src="./assets/prova.js"></script>
+</body>
+</html>
